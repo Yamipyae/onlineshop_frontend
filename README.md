@@ -1,19 +1,41 @@
-# onlineshop
+# README
 
-A new Flutter project.
+# Online Shop — frontend
 
-## Getting Started
+## 🔎 Overview
 
-This project is a starting point for a Flutter application.
+This is a small online shop for perfumes and shoes. It has two main roles: **Admin** and **User**.
 
-A few resources to get you started if this is your first Flutter project:
+### Admin can:
+- Add and manage product stock
+- Set or update product prices
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### User can:
+- Browse products and add them to the shopping cart
+- View the total price of items in the cart
+- Place an order by providing delivery information (address, phone number)
+- Choose payment method (e.g., Cash on Delivery)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# onlineshop" 
-"# onlineshop_frontend" 
-"# onlineshop_frontend" 
+When an order is placed, the **admin receives an email notification** containing:
+- The list of purchased items
+- User’s delivery information (address, phone number)
+
+## 🚀 Features
+- User can browse products
+- User can add items to the shopping cart
+- User can calculate total price automatically
+- User can place an order and provide delivery info
+- Admin can add or update product stock
+- Admin can change product prices
+- Admin receives email notification with order details
+
+## 🛠 Tech Stack
+- flutter
+  
+
+## 💾 Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/Yamipyae/onlineshop_frontend
+
+
